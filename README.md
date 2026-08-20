@@ -6,7 +6,7 @@ This will contain my projects that are used when learning Python
 
 Week 1 : lecture 0 - Functions and Variables
 Problem set 0:  
-  [Indoor voice](CS50 PYTHON via Youtube/Problem set 0/indoor.py)
+  [Indoor voice](CS50_Python/ProblemSet0/indoor.py)
   Playback speed
   Making Faces
   Einstein
