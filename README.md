@@ -14,10 +14,15 @@ Problem set 0:
   
 Week 2 : lecture 1 - Conditionals
 Problem set 1:
+  [Deep thought](CS50_Python/ProblemSet1/deep.py)
+  [Home federal savings bank](CS50_Python/ProblemSet1/bank.py)
+  [File extensions](CS50_Python/ProblemSet1/extensions.py) NOT DONE YET
+  [Math interpreter](CS50_Python/ProblemSet1/interpreter.py) NOT DONE YET
+  [Meal time](CS50_Python/ProblemSet1/meal.py) NOT DONE YET
 
 
- 
 
+  
 #notes for me :p
 
 When creating new program hit source control and commit changes,
