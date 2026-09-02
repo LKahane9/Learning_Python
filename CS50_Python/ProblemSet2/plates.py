@@ -20,11 +20,13 @@ def is_valid(s):
         # if no numbers seen AND character is 0, returns False, if it is a number and isn't 0 it changes numb seen to True
         if number_seen == False and character == "0":
             return False
-        elif character.isnumeric():
-            number_seen = True
         # if character following number is not another number, returns False
         elif number_seen == True and character.isalpha():
-            return False
+                    return False 
+        # had to move down, else it would skip the latter elif statement i think?
+        elif character.isnumeric():
+                   number_seen = True
+               
     return True
 
 main()
