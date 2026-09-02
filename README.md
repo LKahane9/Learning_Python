@@ -4,30 +4,38 @@ ______________________________________________________________
 
 
 Week 1 : lecture 0 - Functions and Variables
+
 Problem set 0:  
+
   [Indoor voice](CS50_Python/ProblemSet0/indoor.py)
   [Playback speed](CS50_Python/ProblemSet0/playback.py)
   [Making faces](CS50_Python/ProblemSet0/faces.py)
   [Einstein](CS50_Python/ProblemSet0/einstein.py)
   [Tip calculator](CS50_Python/ProblemSet0/tip.py)
+______________________________________________________________  
   
 Week 2 : lecture 1 - Conditionals
+
 Problem set 1:
+
   [Deep thought](CS50_Python/ProblemSet1/deep.py)
   [Home federal savings bank](CS50_Python/ProblemSet1/bank.py)
   [File extensions](CS50_Python/ProblemSet1/extensions.py)
   [Math interpreter](CS50_Python/ProblemSet1/interpreter.py)
   [Meal time](CS50_Python/ProblemSet1/meal.py)
+______________________________________________________________  
 
 Week 3 : lecture 2 - Loops
+
 Problem set 2:
+
   [Camel Case](CS50_Python/ProblemSet2/camel.py)
   [Coke Machine](CS50_Python/ProblemSet2/coke2.py)  
   [Just Setting Up My Twttr](CS50_Python/ProblemSet2/twtter.py)
   [Vanity Plates](CS50_Python/ProblemSet2/plates.py)
   [Nutrition Facts](CS50_Python/ProblemSet2/nutrition.py) Still Doing Now
 (((coke.py is original attempt, coke2.py is second attempt))
-
+______________________________________________________________
 
 
 
