@@ -22,11 +22,11 @@ Problem set 1:
 Week 3 : lecture 2 - Loops
 Problem set 2:
   [Camel Case](CS50_Python/ProblemSet2/camel.py)
-  [Coke Machine](CS50_Python/ProblemSet2/coke2.py)  (coke.py is original attempt, coke2.py is second attempt)
+  [Coke Machine](CS50_Python/ProblemSet2/coke2.py)  
   [Just Setting Up My Twttr](CS50_Python/ProblemSet2/twtter.py)
   [Vanity Plates](CS50_Python/ProblemSet2/plates.py)
   [Nutrition Facts](CS50_Python/ProblemSet2/nutrition.py) Still Doing Now
-
+(((coke.py is original attempt, coke2.py is second attempt))
 
 
 
