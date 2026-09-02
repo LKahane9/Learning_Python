@@ -14,21 +14,17 @@ def is_valid(s):
     if s[0:2].isalpha() == False:
         return False
     for character in s:
-        # rules out punctuation and spaces
-        if character in blocked:
+        # rules out anything that isn't alphanumeric
+        if not character.isalnum():
             return False
-        # if no numbers seen AND character is 0, returns False
+        # if no numbers seen AND character is 0, returns False, if it is a number and isn't 0 it changes numb seen to True
         if number_seen == False and character == "0":
             return False
-        # if charcter is a number, and previously checked that it isnt the first and isnt 0 if so, changes to number_seen
-        if character.isnumeric():
+        elif character.isnumeric():
             number_seen = True
         # if character following number is not another number, returns False
-        if number_seen == True and character.isalpha():
+        elif number_seen == True and character.isalpha():
             return False
-
     return True
-
-blocked = " ", ".", "!", "?", ":", ";", "'", '"', "-", ",", "(", ")"
 
 main()
