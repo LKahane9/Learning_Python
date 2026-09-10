@@ -1,3 +1,4 @@
+# menu provided by cs50
 menu = {
     "Baja Taco": 4.25,
     "Burrito": 7.50,
