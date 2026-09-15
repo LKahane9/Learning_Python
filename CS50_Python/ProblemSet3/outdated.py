@@ -27,7 +27,7 @@ def yearmd():
                 # make sure they fit within the right amount of days and months
                 if 0 < int(month) < 13 and 0 < int(date) < 32:
                     # formats to the right amount of decimals
-                    print(f"{year:04d}-{int(month):02d}-{int(date):02d}")
+                    print(f"{year}-{int(month):02d}-{int(date):02d}")
                     break
             except ValueError:
                 pass
@@ -37,14 +37,14 @@ def yearmd():
         elif "," in user_date:
             try:
                 user_date = user_date.replace(",", "")
-                month date, year = user_date.split(" ")
+                month, date, year = user_date.split(" ")
                 #capitalised so it matched the list of months
                 month = month.capitalize()
                 if month in months:
                     #if month is in the list, index it to the right number
                     month = months.index(month)
                     if 0 < int(date) < 32:
-                        print(f"{year:04d}-{month:02d}-{int(date):02d}")
+                        print(f"{year}-{month:02d}-{int(date):02d}")
                         break
             except ValueError:
                 pass
